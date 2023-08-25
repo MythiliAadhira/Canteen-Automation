@@ -15,7 +15,7 @@
 }
 *::selection{
     background: var(--red);
-    color: white;
+    color: rgb(255, 253, 249);
 }
 html{
     font-size: 62.5%;
@@ -24,7 +24,7 @@ html{
     scroll-padding-top: 6rem;
 }
 body{
-    background: #f7f7f7;
+    background: #ffffff;
 
 }
 section{
@@ -132,7 +132,7 @@ header .navbar a:hover{
     gap:1.5rem;
     min-height: 100vh;
     align-items: center;
-    background:url(images/) no-repeat;
+    background:url(images/bg.webp) repeat;
    
     background-size: cover;
     background-position: center;
@@ -142,6 +142,7 @@ header .navbar a:hover{
 {
     flex:1 1 40rem;
     padding-top:6.5rem;
+    
 }
 
 .home .image
@@ -171,13 +172,13 @@ header .navbar a:hover{
     font-size:5rem;
     color:#333;
     margin-bottom: 10px;
-
+    font-weight:300;
 }
 
 .home .content p{
     font-size:1.7rem;
-    color:#666;
-    
+    color:#272727;
+    font-weight:250;
 }
 
 /*
@@ -202,7 +203,6 @@ header .navbar a{
   background: #fff;
   color: black;
 }*/
-
 
 .speciality .box-container{
     display:flex;
@@ -229,27 +229,26 @@ header .navbar a{
 }
 .speciality .box-container .box .image{
     text-align: center;
-    background: #fff;
+    background: #000000;
     padding: 2rem;
 
 }
 
 .speciality .box-container .box .content{
     text-align: center;
-    background: rgb(255, 119, 119);
+    background: rgb(230, 185, 37);
     padding: 2rem;
-    
 }
 .speciality .box-container .box .content img{
     margin: 2rem 0;
 }
 .speciality .box-container .box .content h3{
      font-size: 2.5rem;
-     color:#333;
+     color:#000000;
 }
 .speciality .box-container .box .content p{
     font-size: 1.6rem;
-    color: #666;
+    color: #adf4f7;
     padding: 1rem 0;
 }
 .speciality .box-container .box:hover .image
